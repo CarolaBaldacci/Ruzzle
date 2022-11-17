@@ -1,0 +1,29 @@
+INPUT
+   Stringa da riconoscere 'parola'
+   Contenuto della Board
+   Posizione della prima lettera
+   
+SOLUZIONE PARZIALE
+   Stringa : parte della parola che ho già riconosciuto
+   Elenco delle posizioni delle lettere
+
+SOLUZIONE TOTALE
+   Parola riconosciuta per interpo
+   Elenco delle posizioni delle parole
+
+LIVELLO RICORSIONE
+   Numero di caratteri riconosciuti
+   
+CONDIZIONI DI TERMINAZIPONE
+   Livello== size() o lungehzza della parola da riconoscere
+
+AVVIO RICORSIONE
+   Livello=1
+Se viene trovata la parola stoppo la ricorsione,
+Quando la ricorsione riparte , riprende dalla posizione 
+della prima lettera,se esiste
+
+STRUTTIURE DATI
+   String parziale
+   int Livello
+   List<Pose>
