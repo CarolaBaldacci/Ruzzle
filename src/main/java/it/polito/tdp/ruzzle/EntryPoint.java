@@ -25,6 +25,7 @@ public class EntryPoint extends Application {
         stage.setTitle("Ruzzle");
         stage.setScene(scene);
         stage.show();
+
         
     }
 
